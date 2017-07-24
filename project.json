@@ -1,0 +1,28 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 30,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions", "external"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/TopLayer.js",
+        "src/GameLayer.js",
+        "src/Storage.js",
+        "src/Sound.js",
+        "src/Enemy.js",
+        "src/Creature.js",
+        "src/Effect.js",
+        "src/Food.js",
+        "src/Config.js",
+        "src/Emotion.js",
+        "src/Seed.js"
+    ]
+}
